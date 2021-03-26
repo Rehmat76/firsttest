@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/userListing">
+    <fragment
+        android:id="@+id/userListing"
+        android:name="com.app.firsttask.views.fragments.UserListFragment"
+        android:label="fragment_user_listing"
+        tools:layout="@layout/fragment_user_listing" >
+
+    </fragment>
+
+</navigation>
